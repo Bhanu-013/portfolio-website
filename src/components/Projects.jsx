@@ -15,7 +15,7 @@ const projects = [
     description:
       "A professional portfolio website developed using React.js to showcase technical skills, projects, resume, and contact information with a modern responsive design.",
     github: "#",
-    demo: "#",
+    demo: "https://portfolio-website-two-phi-34.vercel.app",
   },
 ];
 
