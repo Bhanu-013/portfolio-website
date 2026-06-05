@@ -7,7 +7,7 @@ const projects = [
     description:
       "A full-stack event management platform built using Spring Boot, Thymeleaf, MySQL, and Bootstrap. Features include event creation, registration, attendee management, QR code generation, and admin dashboard.",
     github: "https://github.com/Bhanu-013/event-management-system",
-    demo: "#",
+    demo: "",
   },
 
   {
@@ -49,15 +49,17 @@ const projects = [
                 <button>GitHub</button>
               </a>
 
-              <a
-                href={project.demo}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="demo-btn">
-                  Live Demo
-                </button>
-              </a>
+  {project.demo && (
+  <a
+    href={project.demo}
+    target="_blank"
+    rel="noreferrer"
+  >
+    <button className="demo-btn">
+      Live Demo
+    </button>
+  </a>
+)}
             </div>
           </div>
         ))}

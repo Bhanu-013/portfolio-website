@@ -1,5 +1,6 @@
 import "./About.css";
 import myphoto from "../assets/myphoto.jpeg";
+import resume from "../assets/resume.pdf";
 
 function About() {
   return (
@@ -24,11 +25,11 @@ function About() {
             technologies.
           </p>
 
-          <a href="/resume.pdf" download>
-            <button className="about-btn">
-              Download Resume
-            </button>
-          </a>
+         <a href={resume} download="Bhanu_Gattham_Resume.pdf">
+  <button className="about-btn">
+    Download Resume
+  </button>
+</a>
         </div>
 
       </div>

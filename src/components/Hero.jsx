@@ -29,11 +29,15 @@ function Hero() {
             <button>View Projects</button>
           </a>
 
- <a href="/resume.pdf" download>
-  <button className="resume-btn">
-    Download Resume
-  </button>
-</a>
+          <a
+            href={resume}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="resume-btn">
+              View Resume
+            </button>
+          </a>
         </div>
       </motion.div>
     </section>
